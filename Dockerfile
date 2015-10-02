@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM vibhulabs/java-dev-tools
 
 RUN apt-get update && apt-get install -y wget git curl zip && rm -rf /var/lib/apt/lists/*
 
