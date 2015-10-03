@@ -39,7 +39,8 @@ ENV JENKINS_UC https://updates.jenkins-ci.org
 RUN chown -R jenkins "$JENKINS_HOME" /usr/share/jenkins/ref
 
 # for main web interface:
-EXPOSE 8080
+ENV JENKINS_OPTS --httpPort=8081
+EXPOSE 8081
 
 # will be used by attached slave agents:
 EXPOSE 50000
