@@ -1,3 +1,15 @@
+matrix-project
+ssh-credentials
+parameterized-trigger
+token-macro 
+mailer
+credentials
+promoted-builds
+scm-api
+git-client
+git
+oauth-credentials
+token-macro
 google-login
 google-oauth-plugin
 google-play-android-publisher
